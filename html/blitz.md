@@ -8,6 +8,6 @@ Rank|Bot|Rating
 #6|bluefake|2782
 #7|dangkhoi2805|2755
 #8|Viet-BOT|2753
-#9|Nam-stockfish|2631
+#9|Nam-stockfish|2694
 #10|TungJohn|2361
 #11|TungJohnPlayingChess|2242
