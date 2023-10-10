@@ -2,7 +2,7 @@ Rank|Bot|Rating
 ---|---|---
 #1|Viet-AI|3001
 #2|Viet_BOT|2847
-#3|gam3play3r-BOT|2842
+#3|gam3play3r-BOT|2844
 #4|Vinh_VariantsBot|2836
 #5|Hien-Vinh_Bot2|2820
 #6|bluefake|2782

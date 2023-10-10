@@ -6,7 +6,7 @@ Rank|Bot|Rating
 #4|dangkhoi2805|2823
 #5|Viet_BOT|2787
 #6|Viet-BOT|2775
-#7|gam3play3r-BOT|2724
+#7|gam3play3r-BOT|2729
 #8|Vinh_VariantsBot|2695
 #9|Nam-stockfish|2687
 #10|Viet-Robot|2504
