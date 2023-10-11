@@ -2,10 +2,10 @@ import os
 import datetime
 import yaml
 
-with open('update-time.yml', encoding='utf-8') as update_file:
-    version_info = yaml.safe_load(update_file)
+with open('update-time.yml', encoding='utf-8') as version_file:
+    version_info = yaml.safe_load(version_file)
 
-current_update = update-time_info['TIME']
+current_update = versioning_info['TIME']
 
 utc_datetime = datetime.datetime.utcnow()
 new_update = f'{utc_datetime.hour}:{utc_datetime.min}:{utc_datetime.sec} {utc_datetime.day}/{utc_datetime.year}.'
@@ -16,10 +16,10 @@ if current_update.startswith(new_update):
 else:
     new_update += '1'
 
-update_time_info['TIME'] = new_update
+versioning_info['TIME'] = new_update
 
-with open('update-time.yml', 'w', encoding='utf-8') as update_file:
-    yaml.dump(update_time_info, update_file, sort_keys=False)
+with open('update-time.yml', 'w', encoding='utf-8') as version_file:
+    yaml.dump(versioning_info, version_file, sort_keys=False)
 
 with open(os.environ['GITHUB_OUTPUT'], 'a', encoding='utf-8') as fh:
     print(f'new_update={new_update}', file=fh)
