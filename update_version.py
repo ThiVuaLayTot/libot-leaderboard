@@ -8,7 +8,7 @@ with open('update-time.yml', encoding='utf-8') as version_file:
 current_update = version_info['TIME']
 
 utc_datetime = datetime.datetime.utcnow()
-new_update = f'{utc_datetime.hour}:{utc_datetime.min}:{utc_datetime.sec} {utc_datetime.day}/{utc_datetime.year}.'
+new_update = f'{utc_datetime.hour}:{utc_datetime.min} ngày {utc_datetime.day}/{utc_datetime.month}/{utc_datetime.year} theo giờ UTC.'
 if current_update.startswith(new_update):
     current_update_list = current_update.split('.')
     current_update_list[-1] = str(int(current_update_list[-1]) + 1)
