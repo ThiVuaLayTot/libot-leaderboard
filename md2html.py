@@ -10,9 +10,9 @@ import yaml
 logger = logging.getLogger(__name__)
 
 with open('update-time.yml', encoding='utf-8') as version_file:
-    versioning_info = yaml.safe_load(version_file)
+    version_info = yaml.safe_load(version_file)
 
-__version__ = versioning_info['update-time']
+__version__ = version_info['update-time']
 
 terminated = False
 restart = True
