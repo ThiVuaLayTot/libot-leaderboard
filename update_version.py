@@ -5,7 +5,7 @@ import yaml
 with open('update-time.yml', encoding='utf-8') as update_file:
     version_info = yaml.safe_load(update_file)
 
-current_update = update_time_info['TIME']
+current_update = update-time_info['TIME']
 
 utc_datetime = datetime.datetime.utcnow()
 new_update = f'{utc_datetime.hour}:{utc_datetime.min}:{utc_datetime.sec} {utc_datetime.day}/{utc_datetime.year}.'
