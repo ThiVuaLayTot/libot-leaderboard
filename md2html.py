@@ -1,5 +1,21 @@
-import os
 import re
+import os
+import os.path
+import subprocess
+import sys
+import logging
+import logging.handlers
+
+import yaml
+logger = logging.getLogger(__name__)
+
+with open('update-time.yml', encoding='utf-8') as version_file:
+    versioning_info = yaml.safe_load(version_file)
+
+__version__ = versioning_info['update-time']
+
+terminated = False
+restart = True
 
 css_styles = """
 <head>
@@ -116,7 +132,7 @@ for directory in directories:
                 markdown_table = md_file.read()
                 html_table = markdown_table_to_html(markdown_table)
 
-                styled_html_table = css_styles + h1_tag + html_table + footer_styles
+                styled_html_table = css_styles + h1_tag + html_table + __version__ + footer_styles
 
                 html_filename = os.path.splitext(filename)[0] + '.html'
                 with open(os.path.join(directory, html_filename), 'w') as html_file:
