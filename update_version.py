@@ -3,7 +3,7 @@ import datetime
 import yaml
 
 with open('update-time.yml', encoding='utf-8') as update_file:
-    update-time_info = yaml.safe_load(update_file)
+    version_info = yaml.safe_load(update_file)
 
 current_update = update-time_info['TIME']
 
