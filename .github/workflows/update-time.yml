@@ -20,7 +20,7 @@ jobs:
           pip install PyYAML
       - name: Update
         id: new-version
-        run: python .github/workflows/update_version.py
+        run: python update_version.py
       - name: Auto update
         run: |
           git config --global user.email "actions@github.com"
