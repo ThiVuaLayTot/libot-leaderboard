@@ -7,6 +7,7 @@ import logging
 import logging.handlers
 
 import yaml
+
 logger = logging.getLogger(__name__)
 
 with open('update-time.yml', encoding='utf-8') as version_file:
