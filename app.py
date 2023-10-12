@@ -1,5 +1,7 @@
 from flask import Flask, send_file
 
+import pandas as pd
+
 app = Flask(__name__)
 
 TYPES = [
@@ -29,10 +31,10 @@ def lichess():
 
 @app.route('/lichess/<type_name>')
 def lichess_type(type_name):
-    if type_name in TYPES:
-        return send_file(f'./{type_name}.csv')
-    else:
-        return "Invalid type", 404
+
+
+	data = pd.read_csv('html/{type_name}.csv'),header=0)
+	return render_template('lichess.html', tables=[data.to_html()], titles=[''])
         
 @app.route('/lishogi')
 def lishogi():
