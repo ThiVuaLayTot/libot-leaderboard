@@ -30,7 +30,7 @@ def lichess():
 @app.route('/lichess/<type_name>')
 def lichess_type(type_name):
     if type_name in TYPES:
-        return send_file(f'./{type_name}.html')
+        return send_file(f'./{type_name}.csv')
     else:
         return "Invalid type", 404
         
