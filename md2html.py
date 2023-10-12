@@ -6,18 +6,6 @@ import sys
 import logging
 import logging.handlers
 
-import yaml
-
-logger = logging.getLogger(__name__)
-
-with open('update-time.yml', encoding='utf-8') as version_file:
-    version_info = yaml.safe_load(version_file)
-
-__version__ = version_info['update-time']
-
-terminated = False
-restart = True
-
 css_styles = """
 <head>
   <title> Lichess - Bảng xếp hạng </title>
@@ -84,7 +72,7 @@ footer_styles = """
 
 def generate_h1_tag(filename):
     title = os.path.splitext(filename)[0].capitalize()
-    h1_tag = f"<h1>Bảng xếp hạng {title} (Lần cuối cập nhật: {__version__})</h1>"
+    h1_tag = f"<h1>Bảng xếp hạng {title}</h1>"
     return h1_tag
 
 def markdown_table_to_html(markdown_table):
