@@ -27,10 +27,10 @@ jobs:
       - name: Cập nhật Bảng xếp hạng
         run: |
           python3 lichess_bot_leaderboard.py
+          python3 md2html.py
         # python3 lidraughts_bot_leaderboard.py
         # python3 lishogi_bot_leaderboard.py
         # python3 playstrategy_bot_leaderboard.py
-          python3 md2html.py
       - name: Cam kết & Đẩy tệp
         run: |
           git config --local user.email "action@github.com"
