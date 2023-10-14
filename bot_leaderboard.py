@@ -28,7 +28,7 @@ def types():
     ]
 
 def get_file_name(type):
-    return './html/' + type + '.csv'
+    return './html/' + type + '.md'
 
 def get_all_bots_ratings():
     all_bots_ratings = []
@@ -87,9 +87,10 @@ def get_bots_leaderboard(type):
             print(f"{d['title']} @{d['username']}: No {type} rating available")
     resulting_arr = sorted(user_arr, key=lambda x: x[1], reverse=True)
     with open(get_file_name(type), 'w') as f:
-        print("Hạng,Bot,Elo", file=f)
+        print("Hạng|Bot|Elo", file=f)
+        print("---|---|---", file=f)
         for j in resulting_arr:
-            print(f"#{str(count)},{j[0]},{str(j[1])}", file=f)
+            print(f"#{str(count)}|{j[0]}|{str(j[1])}", file=f)
             count += 1
 
     print(f"Finished generating leaderboard for {type}")
