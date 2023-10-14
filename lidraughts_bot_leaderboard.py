@@ -1,8 +1,8 @@
 import urllib.request
 import orjson
 import sys
-import lichess.api
-from lichess.format import SINGLE_PGN
+import lidraughts.api
+from lidraughts.format import SINGLE_PGN
 import json
 import os
 import datetime
@@ -17,33 +17,32 @@ def types():
         'rapid',
         'classical',
         'correspondence',
-        'chess960',
-        'antichess',
-        'atomic',
-        'crazyhouse',
-        'horde',
-        'kingOfTheHill',
-        'racingKings',
-        'threeCheck'
+        'ultraBullet',
+        'frysk',
+        'frisian'
+        'breakthrough',
+        'antidraughts',
+        'brazilian',
+        'russian'
     ]
 
 def get_file_name(type):
-    return './html/' + type + '.md'
+    return './lidraughts/' + type + '.md'
 
 def get_all_bots_ratings():
     all_bots_ratings = []
-    with open('available_bots.txt', 'r') as f:
-        available_bots = [player.strip() for player in f.readlines()]
+    with open('lidraughts_bots.txt', 'r') as f:
+        lidraughts_bots = [player.strip() for player in f.readlines()]
 
     batch_size = 100
-    num_batches = (len(available_bots) + batch_size - 1) // batch_size
+    num_batches = (len(lidraughts_bots) + batch_size - 1) // batch_size
 
     for i in range(num_batches):
         batch_start = i * batch_size
         batch_end = (i + 1) * batch_size
-        batch_usernames = available_bots[batch_start:batch_end]
+        batch_usernames = lidraughts_bots[batch_start:batch_end]
 
-        users_list = lichess.api.users_by_ids(batch_usernames)
+        users_list = lidraughts.api.users_by_ids(batch_usernames)
 
         for user in users_list:
             all_bots_ratings.append({
@@ -56,13 +55,13 @@ def get_all_bots_ratings():
                 'disabled': user.get('disabled')
             })
 
-    with open('bot_leaderboard.json', 'w') as f:
+    with open('lidraughts_bot_leaderboard.json', 'w') as f:
         json.dump(all_bots_ratings, f)
-    print("Updated bot_leaderboard.json file.")
+    print("Updated lidraughts_bot_leaderboard.json file.")
 
 def get_bots_leaderboard(type):
 
-    file_path = os.path.join(os.path.dirname(__file__), 'bot_leaderboard.json')
+    file_path = os.path.join(os.path.dirname(__file__), 'lidraughts_bot_leaderboard.json')
     with open(file_path, 'r') as f:
         bots_ratings = json.load(f)
 
@@ -95,10 +94,10 @@ def get_bots_leaderboard(type):
 
     print(f"Finished generating leaderboard for {type}")
 
-if __name__ == "__main__":
-    try:
-        get_all_bots_ratings()
-        for i in types():
-            get_bots_leaderboard(i)
-    except KeyboardInterrupt:
-        sys.exit()
+# if __name__ == "__main__":
+#   try:
+#       get_all_bots_ratings()
+#       for i in types():
+#           get_bots_leaderboard(i)
+#   except KeyboardInterrupt:
+#       sys.exit()

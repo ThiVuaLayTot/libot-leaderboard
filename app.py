@@ -1,6 +1,4 @@
-from flask import Flask, render_template, send_file
-
-import pandas as pd
+from flask import Flask, send_file
 
 app = Flask(__name__)
 
@@ -30,23 +28,44 @@ def lichess():
     return send_file('html/lichess.html')
 
 @app.route('/lichess/<type_name>')
-def lichess_type(type_name):
+def chess_bot_type(type_name):
+    if type_name in TYPES:
+        return send_file(f'lichess/{type_name}.html')
+    else:
+        return "Loại không hợp lệ", 404
 
-
-	data = pd.read_csv('html/{type_name}.csv'),header=0)
-	return render_template('lichess.html', tables=[data.to_html()], titles=[''])
-        
-@app.route('/lishogi')
-def lishogi():
-    return send_file('html/lishogi.html')
-
-@app.route('/playstrategy')
-def playstrategy():
-    return send_file('html/playstrategy.html')
-
-@app.route('/lidraughts')
-def lidraughts():
-    return send_file('html/lidraughts.html')
+#@app.route('/lishogi')
+#def lishogi():
+#    return send_file('html/lishogi.html')
+#
+#@app.route('/lishogi/<type_name>')
+#def shogi_bot_type(type_name):
+#    if type_name in TYPES:
+#        return send_file(f'lishogi/{type_name}.html')
+#    else:
+#        return "Loại không hợp lệ", 404
+#
+#@app.route('/playstrategy')
+#def playstrategy():
+#   return send_file('html/playstrategy.html')
+#
+#@app.route('/playstrategy/<type_name>')
+#def strategy_bot_type(type_name):
+#    if type_name in TYPES:
+#        return send_file(f'playstrategy/{type_name}.html')
+#    else:
+#        return "Loại không hợp lệ", 404
+#
+#@app.route('/lidraughts')
+#def lidraughts():
+#    return send_file('html/lidraughts.html')
+#
+#@app.route('/lidraughts/<type_name>')
+#def draughts_bot_type(type_name):
+#    if type_name in TYPES:
+#        return send_file(f'lidraughts/{type_name}.html')
+#    else:
+#        return "Loại không hợp lệ", 404
 
 if __name__ == "__main__":
     app.run(host="localhost", port=5000)
