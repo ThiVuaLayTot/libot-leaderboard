@@ -34,7 +34,7 @@ css_styles = """
       text-align: left;
     }
     .styled-table th {
-      background-color: #f2f2f2;
+      background-color: #f0A51;
     }
     body {
       margin-bottom: 70px;
@@ -46,7 +46,7 @@ css_styles = """
     }
     footer {
       font-family: "Raleway", sans-serif;
-      background-color: #00FF00;
+      background-color: #04FFf0;
       padding: 5px;
       margin-left: auto;
       margin-top: auto;
