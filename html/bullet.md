@@ -7,7 +7,7 @@ Hạng|Bot|Elo
 #5|dangkhoi2805|2823
 #6|Viet_BOT|2787
 #7|Viet-BOT|2775
-#8|gam3play3r-BOT|2765
+#8|gam3play3r-BOT|2766
 #9|Vinh_VariantsBot|2695
 #10|Viet-Robot|2504
 #11|BOT_DinhHoangViet|2385

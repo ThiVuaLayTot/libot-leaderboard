@@ -1,7 +1,7 @@
 Hạng|Bot|Elo
 ---|---|---
 #1|Viet-AI|3001
-#2|gam3play3r-BOT|2856
+#2|gam3play3r-BOT|2861
 #3|Viet_BOT|2847
 #4|Vinh_VariantsBot|2836
 #5|Hien-Vinh_Bot2|2820

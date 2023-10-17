@@ -10,4 +10,4 @@ Hạng|Bot|Elo
 #8|dangkhoi2805|2571
 #9|TungJohn|2340
 #10|TungJohnPlayingChess|2102
-#11|gam3play3r-BOT|1951
+#11|gam3play3r-BOT|2009
