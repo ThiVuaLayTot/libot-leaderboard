@@ -28,3 +28,6 @@ python bot_leaderboard.py
 ## Luật để Bot có thể vào BXH
 1. Bot của bạn phải chơi ít nhất 1 trò chơi được xếp hạng trong loại Biến thể/Trò chơi tương ứng đó.
 2. Bot của bạn không được có dấu vi phạm [Điều khoản dịch vụ của Lichess](https://lichess.org/terms-of-service).
+
+# Cảm ơn
+Cảm ơn [lightningbolts](https://github.com/lightningbolts) vì mã chính được lấy từ https://github.com/lightningbolts/Lichess-Bot-Leaderboards và được [TheYoBots](https://github.com/TheYoBots) viết thêm trong https://github.com/TheYoBots/libot-lb và chúng tôi sửa đổi mã cần thiết từ đó.
