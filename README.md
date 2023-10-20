@@ -6,7 +6,7 @@ Bảng xếp hạng dành cho tất cả Lichess Bot được tạo từ các vi
 Hãy xem thử tại đây: https://thi-vua-lay-tot.github.io/libot-leaderboard/
 
 # Tạo bảng xếp hạng
-1. Đặt bí mật môi trường:
+1. Set Environment Secret::
 
 Nhận [Mã Token từ lichess (Không yêu cầu phạm vi)](https://lichess.org/account/oauth/token/create?scopes[]=None&description=Bot+Leaderboard+Token) và thực hiện lệnh sau::
 ```
