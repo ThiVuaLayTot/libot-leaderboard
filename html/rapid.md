@@ -8,6 +8,7 @@ Hạng|Bot|Elo
 #6|Vinh_VariantsBot|2615
 #7|Nam-stockfish|2579
 #8|dangkhoi2805|2571
-#9|TungJohn|2340
-#10|TungJohnPlayingChess|2102
-#11|gam3play3r-BOT|2009
+#9|duythong1402|2436
+#10|TungJohn|2340
+#11|TungJohnPlayingChess|2102
+#12|gam3play3r-BOT|2009

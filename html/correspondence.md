@@ -1,6 +1,6 @@
 Hạng|Bot|Elo
 ---|---|---
-#1|Viet-BOT|2611
+#1|Viet-BOT|2620
 #2|Viet-AI|2471
 #3|bluefake|2197
 #4|lechau2122_alo|2156
