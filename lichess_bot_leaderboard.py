@@ -5,7 +5,6 @@ import lichess.api
 from lichess.format import SINGLE_PGN
 import json
 import os
-import datetime
 import re
 
 TOKEN = os.environ['TOKEN']
@@ -51,7 +50,6 @@ def get_all_bots_ratings():
                 'username': user.get('username'),
                 'id': user.get('id'),
                 'perfs': user.get('perfs', {}),
-                'seenAt': user.get('seenAt'),
                 'tosViolation': user.get('tosViolation'),
                 'disabled': user.get('disabled')
             })
@@ -74,7 +72,6 @@ def get_bots_leaderboard(type):
         if perfs is not None:
             result = [d['username'], perfs.get('rating')]
             print(f'{result[0]}: {result[1]} in {type}.')
-            d['seenAt'] = datetime.datetime.utcfromtimestamp(d['seenAt'] / 100)
             if d.get('tosViolation', False) == True:
                 print("Violated ToS")
             elif d.get('disabled', False) == True:
