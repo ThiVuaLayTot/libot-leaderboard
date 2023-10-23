@@ -1,8 +1,8 @@
 Hạng|Bot|Elo
 ---|---|---
 #1|Viet-AI|3001
-#2|duythong1402|2861
-#3|gam3play3r-BOT|2861
+#2|gam3play3r-BOT|2854
+#3|duythong1402|2851
 #4|Viet_BOT|2847
 #5|Vinh_VariantsBot|2833
 #6|Hien-Vinh_Bot2|2820
@@ -10,5 +10,6 @@ Hạng|Bot|Elo
 #8|dangkhoi2805|2755
 #9|Viet-BOT|2753
 #10|Nam-stockfish|2731
-#11|TungJohn|2361
-#12|TungJohnPlayingChess|2242
+#11|Superchess183|2695
+#12|TungJohn|2361
+#13|TungJohnPlayingChess|2242
