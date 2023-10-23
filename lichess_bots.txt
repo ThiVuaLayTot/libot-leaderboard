@@ -8,6 +8,7 @@ hien-vinh_bot2
 lechau2122_alo
 nam-stockfish
 nam-robot
+superchess183
 tungjohn
 tungjohnplayingchess
 tungmanhgiang020709
