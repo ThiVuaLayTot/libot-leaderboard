@@ -7,6 +7,7 @@ gam3play3r-BOT
 hien-vinh_bot2
 lechau2122_alo
 nam-stockfish
+nam-robot
 tungjohn
 tungjohnplayingchess
 tungmanhgiang020709
