@@ -1,6 +1,6 @@
 Hạng|Bot|Elo
 ---|---|---
-#1|Nam-stockfish|2986
+#1|Nam-stockfish|2970
 #2|Viet-AI|2930
 #3|Nam-Robot|2871
 #4|duythong1402|2865

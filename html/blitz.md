@@ -9,7 +9,7 @@ Hạng|Bot|Elo
 #7|bluefake|2782
 #8|dangkhoi2805|2755
 #9|Viet-BOT|2753
-#10|Nam-stockfish|2731
+#10|Nam-stockfish|2695
 #11|Superchess183|2695
 #12|TungJohn|2361
 #13|TungJohnPlayingChess|2242
