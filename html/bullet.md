@@ -2,8 +2,8 @@ Hạng|Bot|Elo
 ---|---|---
 #1|Nam-stockfish|2970
 #2|Viet-AI|2930
-#3|Nam-Robot|2871
-#4|duythong1402|2865
+#3|duythong1402|2884
+#4|Nam-Robot|2871
 #5|Hien-Vinh_Bot2|2857
 #6|bluefake|2842
 #7|dangkhoi2805|2823
