@@ -1,9 +1,9 @@
 Hạng|Bot|Elo
 ---|---|---
 #1|Viet-AI|3001
-#2|gam3play3r-BOT|2854
-#3|Viet_BOT|2847
-#4|duythong1402|2845
+#2|duythong1402|2858
+#3|gam3play3r-BOT|2847
+#4|Viet_BOT|2847
 #5|Vinh_VariantsBot|2833
 #6|Hien-Vinh_Bot2|2820
 #7|bluefake|2782
@@ -13,3 +13,4 @@ Hạng|Bot|Elo
 #11|Superchess183|2695
 #12|TungJohn|2361
 #13|TungJohnPlayingChess|2242
+#14|Nam-Robot|2016
