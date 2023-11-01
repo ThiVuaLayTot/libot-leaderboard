@@ -1,6 +1,6 @@
 Hạng|Bot|Elo
 ---|---|---
-#1|duythong1402|2139
+#1|duythong1402|2136
 #2|Vinh_VariantsBot|2098
 #3|Viet-AI|2060
 #4|Hien-Vinh_Bot2|2054
