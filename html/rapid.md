@@ -4,7 +4,7 @@ Hạng|Bot|Elo
 #2|Viet-BOT|2830
 #3|Viet_BOT|2823
 #4|Hien-Vinh_Bot2|2779
-#5|duythong1402|2751
+#5|duythong1402|2767
 #6|bluefake|2737
 #7|Vinh_VariantsBot|2615
 #8|Nam-stockfish|2579
