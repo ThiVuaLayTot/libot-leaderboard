@@ -2,14 +2,14 @@ Hạng|Bot|Elo
 ---|---|---
 #1|Nam-stockfish|2970
 #2|Viet-AI|2930
-#3|duythong1402|2898
+#3|duythong1402|2901
 #4|Nam-Robot|2897
 #5|Hien-Vinh_Bot2|2857
 #6|bluefake|2842
 #7|dangkhoi2805|2823
 #8|Viet_BOT|2787
 #9|Viet-BOT|2775
-#10|gam3play3r-BOT|2760
+#10|gam3play3r-BOT|2770
 #11|Vinh_VariantsBot|2721
 #12|Superchess183|2696
 #13|Viet-Robot|2504
