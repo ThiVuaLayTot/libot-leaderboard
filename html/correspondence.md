@@ -6,3 +6,4 @@ Hạng|Bot|Elo
 #4|lechau2122_alo|2156
 #5|TungJohn|2126
 #6|Hien-Vinh_Bot2|2113
+#7|duythong1402|2025
