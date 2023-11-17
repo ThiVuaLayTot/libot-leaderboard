@@ -6,9 +6,8 @@ Hạng|Bot|Elo
 #4|Hien-Vinh_Bot2|2779
 #5|duythong1402|2758
 #6|Vinh_VariantsBot|2743
-#7|bluefake|2737
-#8|Nam-stockfish|2579
-#9|dangkhoi2805|2571
-#10|TungJohn|2340
-#11|TungJohnPlayingChess|2102
-#12|gam3play3r-BOT|2023
+#7|Nam-stockfish|2579
+#8|dangkhoi2805|2571
+#9|TungJohn|2340
+#10|TungJohnPlayingChess|2102
+#11|gam3play3r-BOT|2023

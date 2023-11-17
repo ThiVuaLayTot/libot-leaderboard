@@ -8,4 +8,3 @@ Hạng|Bot|Elo
 #6|TungJohn|2225
 #7|BOT_DinhHoangViet|2214
 #8|TungJohnPlayingChess|1477
-#9|bluefake|1475
