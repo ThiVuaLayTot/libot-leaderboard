@@ -7,8 +7,8 @@ Hạng|Bot|Elo
 #5|Hien-Vinh_Bot2|2857
 #6|dangkhoi2805|2823
 #7|Viet_BOT|2787
-#8|Viet-BOT|2775
-#9|gam3play3r-BOT|2770
+#8|gam3play3r-BOT|2783
+#9|Viet-BOT|2775
 #10|Vinh_VariantsBot|2721
 #11|Superchess183|2696
 #12|Viet-Robot|2504

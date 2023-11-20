@@ -3,7 +3,7 @@ Hạng|Bot|Elo
 #1|Viet-AI|3001
 #2|duythong1402|2861
 #3|Viet_BOT|2847
-#4|gam3play3r-BOT|2841
+#4|gam3play3r-BOT|2843
 #5|Vinh_VariantsBot|2833
 #6|Hien-Vinh_Bot2|2820
 #7|dangkhoi2805|2755
