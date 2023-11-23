@@ -3,7 +3,7 @@ Hạng|Bot|Elo
 #1|Nam-stockfish|2970
 #2|Viet-AI|2930
 #3|Nam-Robot|2897
-#4|duythong1402|2881
+#4|duythong1402|2883
 #5|Hien-Vinh_Bot2|2857
 #6|dangkhoi2805|2823
 #7|Viet_BOT|2787

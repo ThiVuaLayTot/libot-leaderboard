@@ -3,8 +3,8 @@ Hạng|Bot|Elo
 #1|Viet-AI|2903
 #2|Viet-BOT|2830
 #3|Viet_BOT|2823
-#4|Hien-Vinh_Bot2|2779
-#5|duythong1402|2770
+#4|duythong1402|2787
+#5|Hien-Vinh_Bot2|2779
 #6|Vinh_VariantsBot|2743
 #7|Nam-stockfish|2579
 #8|dangkhoi2805|2571
