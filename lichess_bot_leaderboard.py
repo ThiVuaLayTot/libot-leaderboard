@@ -56,7 +56,7 @@ def get_all_bots_ratings():
 
     with open('lichess_bot_leaderboard.json', 'w') as f:
         json.dump(all_bots_ratings, f)
-    print("Updated lichess_bot_leaderboard.json file.")
+    print("Đã cập nhật tệp lichess_bot_leaderboard.json.")
 
 def get_bots_leaderboard(type):
 
@@ -73,15 +73,15 @@ def get_bots_leaderboard(type):
             result = [d['username'], perfs.get('rating')]
             print(f'{result[0]}: {result[1]} in {type}.')
             if d.get('tosViolation', False) == True:
-                print("Violated ToS")
+                print("Vi phạm điều khoản Lichess")
             elif d.get('disabled', False) == True:
-                print("Account Closed")               
+                print("Tài khoản đã đóng")               
             elif perfs.get('games', 0) > 0:
                 user_arr.append(result)
             else:
-                print(f" @{d['username']}: No {type} rating available")
+                print(f" @{d['username']}: Không có hệ số {type}")
         else:
-            print(f"{d['title']} @{d['username']}: No {type} rating available")
+            print(f"{d['title']} @{d['username']}: Không có hệ số {type}")
     resulting_arr = sorted(user_arr, key=lambda x: x[1], reverse=True)
     with open(get_file_name(type), 'w') as f:
         print("Hạng|Bot|Elo", file=f)
@@ -90,7 +90,7 @@ def get_bots_leaderboard(type):
             print(f"#{str(count)}|{j[0]}|{str(j[1])}", file=f)
             count += 1
 
-    print(f"Finished generating leaderboard for {type}")
+    print(f"Đã hoàn tất việc tạo bảng xếp hạng cho {type}")
 
 if __name__ == "__main__":
     try:

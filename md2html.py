@@ -1,11 +1,12 @@
 import re
 import os
 import os.path
+import logging
+import logging.handlers
 import datetime
 import subprocess
 import sys
-import logging
-import logging.handlers
+
 
 css_styles = """
 <head>
@@ -15,12 +16,12 @@ css_styles = """
   <script async src="https://stats.chessnibble.com/script.js" data-website-id="8205b599-208b-4d50-be05-5a4bb2f3775d"></script>
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-  <link rel="icon" href="https://raw.githubusercontent.com/Thi-Vua-Lay-Tot/libot-leaderboard/master/images/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="https://raw.githubusercontent.com/Thi-Vua-Lay-Tot/thi-vua-lay-tot.github.io/main/images/favicon.ico" type="image/x-icon" />
   <header>
             <nav>
                 <a href="https://thi-vua-lay-tot.github.io/libot-leaderboard/">< Quay lại</a>
             </nav>
-        </header>
+  </header>
   <style>
     .styled-table {
       font-family: "Raleway", sans-serif;
@@ -74,7 +75,8 @@ footer_styles = """
 def generate_h1_tag(filename):
     title = os.path.splitext(filename)[0].capitalize()
     utc_datetime = datetime.datetime.utcnow()
-    h1_tag = f'<h1 align="center">Bảng xếp hạng {title}</h1><p> Lần cuối cập nhật: {utc_datetime.hour}:{utc_datetime.minute}:{utc_datetime.second} UTC, ngày {utc_datetime.day} tháng {utc_datetime.month} năm {utc_datetime.year}</p>'
+    h1_tag = f"""<h1 align="center">Bảng xếp hạng {title}</h1>
+    <p><i>Lần cuối cập nhật: {utc_datetime.hour}:{utc_datetime.minute}:{utc_datetime.second} UTC, ngày {utc_datetime.day} tháng {utc_datetime.month} năm {utc_datetime.year}</i></p>"""
     return h1_tag
 
 def markdown_table_to_html(markdown_table):
