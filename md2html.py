@@ -18,9 +18,9 @@ css_styles = """
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
   <link rel="icon" href="https://raw.githubusercontent.com/Thi-Vua-Lay-Tot/thi-vua-lay-tot.github.io/main/images/favicon.ico" type="image/x-icon" />
   <header>
-            <nav>
-                <a href="https://thi-vua-lay-tot.github.io/libot-leaderboard/">< Quay lại</a>
-            </nav>
+        <nav>
+              <a href="https://thi-vua-lay-tot.github.io/libot-leaderboard/">< Quay lại</a>
+        </nav>
   </header>
   <style>
     .styled-table {
@@ -62,7 +62,17 @@ css_styles = """
 """
 
 footer_styles = """
-<footer>
+<footer align="center">
+  <p>
+      <a href="https://www.youtube.com/@TungJohnPlayingChess"><img src="https://img.shields.io/badge/-Youtube-EA4335?style=flat-square&logo=Youtube&logoColor=white" target="_blank"></a>
+      <a href="https://clubs.chess.com/GkQy"> <img src="https://img.shields.io/badge/-Chess.com-11111?logo=chess.com&logoColor=11111" target="_blank"> </a>
+      <a href="https://lichess.org/team/thi-vua-lay-tot-tungjohn-playing-chess"><img src="https://img.shields.io/badge/-Lichess-050505?style=flat-square&logo=Lichess&logoColor=white" target="_blank"></a>
+      <a href="https://lishogi.org/team/thi-vua-lay-tot-tungjohn-playing-shogi"><img src="https://img.shields.io/badge/-Lishogi-050505?style=flat-square&logo=Lishogi&logoColor=white" target="_blank"></a>
+      <a href="https://lidraughts.org/team/thi-vua-lay-quan-tungjohn-playing-draughts"><img src="https://img.shields.io/badge/-Lidraughts-050505?style=flat-square&logo=Lidraughts&logoColor=white" target="_blank"></a>
+      <a href="https://playstrategy.org/team/thi-vua-lay-tot-tungjohn-playing-chess"><img src="https://img.shields.io/badge/-PlayStrategy-050505?style=flat-square&logo=PlayStrategy&logoColor=white" target="_blank"></a>
+      <a href="https://www.facebook.com/TungJohn2005"><img src="https://img.shields.io/badge/-Facebook-00B2FF?style=flat-square&logo=Facebook&logoColor=white" target="_blank"> </a>
+      <a href="https://discord.gg/7vYq2gRCrv"><img src="https://dcbadge.vercel.app/api/server/7vYq2gRCrv?style=flat" target="_blank"> </a>
+  </p>
   <p>
     <a href="https://github.com/Thi-Vua-Lay-Tot/libot-leaderboard">
       <img class="github-logo" src="https://github.com/fluidicon.png" alt="GitHub Icon">
