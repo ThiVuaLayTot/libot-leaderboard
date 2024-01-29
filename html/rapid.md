@@ -9,5 +9,5 @@ Hạng|Bot|Elo
 #7|Nam-stockfish|2579
 #8|dangkhoi2805|2571
 #9|TungJohn|2340
-#10|gam3play3r-BOT|2143
+#10|gam3play3r-BOT|2185
 #11|TungJohnPlayingChess|2102

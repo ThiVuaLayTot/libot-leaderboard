@@ -4,12 +4,11 @@ Hạng|Bot|Elo
 #2|duythong1402|2857
 #3|Viet_BOT|2847
 #4|Vinh_VariantsBot|2833
-#5|gam3play3r-BOT|2827
+#5|gam3play3r-BOT|2822
 #6|Hien-Vinh_Bot2|2820
 #7|dangkhoi2805|2755
 #8|Viet-BOT|2753
 #9|Nam-stockfish|2695
-#10|Superchess183|2695
-#11|TungJohn|2361
-#12|TungJohnPlayingChess|2242
-#13|Nam-Robot|2016
+#10|TungJohn|2361
+#11|TungJohnPlayingChess|2242
+#12|Nam-Robot|2016
