@@ -153,7 +153,7 @@ for directory in directories:
                 markdown_table = md_file.read()
                 html_table = markdown_table_to_html(markdown_table)
 
-                styled_html_table = css_styles + h1_tag + html_table + footer_styles
+                styled_html_table = css_styles + h1_tag + html_table + footer_style
 
                 html_filename = os.path.splitext(filename)[0] + '.html'
                 with open(os.path.join(directory, html_filename), 'w') as html_file:
