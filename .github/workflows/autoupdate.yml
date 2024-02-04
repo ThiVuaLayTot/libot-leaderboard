@@ -1,8 +1,6 @@
 name: Cập nhật Bảng xếp hạng
 
 on:
-  schedule:
-    - cron: "33 */33 * * *"
   workflow_dispatch:
 
 env:
