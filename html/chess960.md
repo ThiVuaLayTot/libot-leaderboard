@@ -1,9 +1,0 @@
-Hạng|Bot|Elo
----|---|---
-#1|duythong1402|2148
-#2|Vinh_VariantsBot|2098
-#3|Viet-AI|2060
-#4|Hien-Vinh_Bot2|2054
-#5|Viet_BOT|1937
-#6|Viet-BOT|1917
-#7|TungJohn|1714
