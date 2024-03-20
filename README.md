@@ -3,7 +3,7 @@
 
 Bảng xếp hạng dành cho tất cả Lichess Bot được tạo từ các video hưóng dẫn cách làm Bot từ TungJohn.
 
-Hãy xem thử tại đây: https://thi-vua-lay-tot.github.io/libot-leaderboard/
+Hãy xem thử tại đây: https://thivualaytot.github.io/libot-leaderboard/
 
 # Tạo bảng xếp hạng
 1. Set Environment Secret::
