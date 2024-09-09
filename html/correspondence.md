@@ -1,7 +1,7 @@
 Hạng|Bot|Elo
 ---|---|---
-#1|Viet-BOT|2479
-#2|Viet-AI|2471
+#1|Viet-AI|2471
+#2|Viet-BOT|2448
 #3|lechau2122_alo|2156
 #4|TungJohn|2126
 #5|Hien-Vinh_Bot2|2113

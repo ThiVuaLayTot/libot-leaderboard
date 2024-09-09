@@ -1,9 +1,11 @@
 Hạng|Bot|Elo
 ---|---|---
 #1|Viet-AI|2765
-#2|Viet-BOT|2598
-#3|Vinh_VariantsBot|2561
-#4|Viet_BOT|2354
-#5|TungJohn|2225
-#6|BOT_DinhHoangViet|2214
-#7|TungJohnPlayingChess|1477
+#2|Khanh_Bot|2611
+#3|Viet-BOT|2598
+#4|Vinh_VariantsBot|2561
+#5|Nam-Robot|2537
+#6|Viet_BOT|2354
+#7|TungJohn|2225
+#8|BOT_DinhHoangViet|2214
+#9|TungJohnPlayingChess|1477
